@@ -1,0 +1,63 @@
+.project > img{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+.project{
+    margin: 25px;
+    width: 350px;
+    height: 200px;
+    transition: tranform 100ms ease in;
+}
+.project:hover{
+    color: white;
+    background-color: #ff7700;
+    transform: scale(1.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.project__content{
+    padding: 10px;
+}
+.project__content > h3{
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.project__content > p{
+    font-size: 15px;
+    padding-bottom: 40px;
+    margin: 0px;
+}
+.project__button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 140px;
+    margin-bottom: -10px;
+    padding-bottom: 30px;
+}
+
+.project__code,
+.project__ui {
+    color: white;
+    background-color: rgba(32, 31, 31, 0.555);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px;
+    border-style: none;
+}
+
+.project__code:hover{
+    background-color: rgba(48, 47, 47, 0.555);
+    transform: scale(1.05);
+}
+.project__ui:hover{
+    background-color: rgba(48, 47, 47, 0.555);
+    transform: scale(1.05);
+}

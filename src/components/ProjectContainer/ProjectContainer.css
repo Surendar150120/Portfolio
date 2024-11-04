@@ -1,0 +1,21 @@
+.projectContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: -50px;
+}
+
+.project_heading{ 
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #ff7700;
+}
+.projectContainer_projects{
+    display: flex;
+    width: 80vw;
+    flex-wrap: wrap;
+    margin-top: -10px;
+}
