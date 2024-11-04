@@ -19,16 +19,16 @@ const ContactContainer = () => {
     <div class="footer">
     <div class="wrap1">
       <div class="footer-sect social-icon">
-        <a href="#">
+        <a href="/">
         <i class="fa-brands fa-facebook"></i>
         </a>
-        <a href="#">
+        <a href="/">
         <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="#">
+        <a href="/">
         <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="#">
+        <a href="/">
         <i class="fa-brands fa-square-x-twitter"></i>
         </a>
       </div>
